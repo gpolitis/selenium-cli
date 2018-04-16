@@ -1,0 +1,7 @@
+A collection of command line tools to drive a selenium grid.
+
+Open a URL
+
+    cat data.json | jinja2 play.jinja2 --format json | ./join.py
+
+Make sure you install jinja2 before running the example.

@@ -1,0 +1,3 @@
+{% for i in range(browser_number) -%}
+/usr/share/jitsi-meet-torture/scripts/google-chrome-stable-mahimahi.sh --use-fake-ui-for-media-stream --use-fake-device-for-media-stream --use-file-for-fake-audio-capture=/usr/share/jitsi-meet-torture/resources/fakeAudioStream.w4v --use-file-for-fake-video-capture=/usr/share/jitsi-meet-torture/resources/FourPeople_1280x720_60.y4m --mute-audio --disable-extensions --disable-plugins --disable-gpu --user-data-dir=/tmp/bwe-tests https://bwe.jitsi.net/room1
+{% endfor -%}
